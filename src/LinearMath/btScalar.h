@@ -72,7 +72,6 @@ inline int	btGetVersion()
 				#define BT_USE_SIMD_VECTOR3
 			#endif
 
-			#define BT_USE_SSE
 			#ifdef BT_USE_SSE
 			//BT_USE_SSE_IN_API is disabled under Windows by default, because 
 			//it makes it harder to integrate Bullet into your application under Windows 
